@@ -1,0 +1,31 @@
+# Terminal Multi-Agent Orchestrator (TMAO) Dependencies
+# Lightweight, terminal-focused dependencies for the multi-agent system
+
+# Rich terminal UI and formatting
+rich==13.7.0
+
+# YAML configuration support
+pyyaml==6.0.1
+
+# Scientific computing for embeddings (optional, lightweight)
+numpy==1.24.3
+
+# HTTP client for API integrations (if needed)
+httpx==0.25.2
+
+# Development and testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+black==23.11.0
+flake8==6.1.0
+mypy==1.7.1
+
+# Optional: Enhanced async framework (for scaling demos)
+anyio==4.3.0
+
+# Optional: Better memory serialization (for complex data)
+orjson==3.10.3
+
+# Optional: For future web dashboard
+# fastapi==0.104.1
+# uvicorn==0.24.0

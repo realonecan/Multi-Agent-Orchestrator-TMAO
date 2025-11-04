@@ -1,0 +1,88 @@
+# ====================================================
+# Terminal Multi-Agent Orchestrator (TMAO) Configuration
+# ====================================================
+
+system:
+  name: "TMAO"
+  version: "1.0.0"
+  debug: true
+  log_level: "INFO"
+  theme: "matrix"   # visual theme for terminal output
+  autosave_interval: 60  # seconds
+
+# ====================================================
+# MEMORY SYSTEM
+# ====================================================
+memory:
+  max_size: 2000
+  storage_path: "./runtime/memory_store"
+  cleanup_interval: 300        # seconds
+  cleanup_threshold: 0.8
+  embedding_dim: 50
+  persistence: true
+
+# ====================================================
+# AGENT SETTINGS
+# ====================================================
+agents:
+  max_concurrent: 3
+  timeout: 180           # seconds
+  retry_attempts: 2
+
+  default:
+    temperature: 0.6
+    max_tokens: 1500
+    memory_weight: 0.4
+
+  list:
+    - name: "Planner"
+      role: "Task Decomposition & Strategy"
+      color: "cyan"
+      capabilities: ["planning", "task_breakdown", "coordination"]
+
+    - name: "Builder"
+      role: "Implementation & Execution"
+      color: "green"
+      capabilities: ["coding", "execution", "validation"]
+
+    - name: "Reviewer"
+      role: "Evaluation & Feedback"
+      color: "magenta"
+      capabilities: ["review", "analysis", "optimization"]
+
+# ====================================================
+# TASK SETTINGS
+# ====================================================
+tasks:
+  max_active: 5
+  queue_limit: 30
+  priority_levels: 5
+  autosave_results: true
+  report_path: "./runtime/task_reports"
+
+# ====================================================
+# COMMUNICATION SETTINGS
+# ====================================================
+communication:
+  mode: "local"               # local | websocket | hybrid
+  message_timeout: 15
+  message_log: "./runtime/session_history"
+
+# ====================================================
+# SECURITY
+# ====================================================
+security:
+  encryption_enabled: false
+  sandbox_mode: true
+  restricted_commands:
+    - "os.system"
+    - "subprocess.Popen"
+
+# ====================================================
+# VISUAL / UX SETTINGS
+# ====================================================
+display:
+  use_color: true
+  use_progress_bars: true
+  animation_speed: "medium"   # slow | medium | fast
+  separator_style: "rounded"

@@ -1,0 +1,186 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.venv/
+venv/
+ENV/
+env/
+*.manifest
+*.spec
+*.log
+*.sqlite3
+*.db
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+.ipynb_checkpoints
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.code-workspace
+.env
+.env.*
+*.env
+*.secret
+*.key
+*.pem
+node_modules/
+.next/
+coverage/
+*.bak
+*.tmp
+*.swp
+# =========================
+# PYTHON / VENV
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+.Python
+
+# =========================
+# BUILD / DIST
+# =========================
+build/
+dist/
+downloads/
+develop-eggs/
+.eggs/
+wheels/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.manifest
+*.spec
+MANIFEST
+
+# =========================
+# TESTING / COVERAGE
+# =========================
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache/
+nosetests.xml
+coverage.xml
+htmlcov/
+*.cover
+.pytest_cache/
+.hypothesis/
+
+# =========================
+# LOGS / TEMP / DATA
+# =========================
+logs/
+*.log
+tmp/
+temp/
+data/
+*.db
+*.sqlite3
+*.bak
+*.backup
+
+# =========================
+# IDE / OS / MISC
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# =========================
+# CONFIG / KEYS / SECRETS
+# =========================
+.env
+.env.*
+.env.local
+secrets/
+*.key
+*.pem
+config.local.yaml
+config.*.yaml
+
+# =========================
+# DOCS / MARKDOWN BUILDS
+# =========================
+docs/_build/
+site/
+*.pot
+*.mo
+
+# =========================
+# PYTHON TOOLS
+# =========================
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pyre_cache/
+.ropeproject/
+.spyproject
+.spyderproject
+
+# =========================
+# TMAO CUSTOM
+# =========================
+# Agent cache + runtime data
+runtime/
+agent_cache/
+memory_store/
+session_history/
+# Debug export files
+*.trace
+*.dump
+
+# =========================
+# OPTIONAL: NODE SUPPORT
+# =========================
+node_modules/
+.nyc_output/
