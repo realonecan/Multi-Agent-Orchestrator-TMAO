@@ -6,17 +6,17 @@ It runs entirely in the terminal (Windows, macOS, Linux) with no external server
 
 System Goals
 
-🧩 Modular — Each agent is self-contained and replaceable.
+Modular — Each agent is self-contained and replaceable.
 
-⚙️ Lightweight — No servers, databases, or cloud dependencies.
+Lightweight — No servers, databases, or cloud dependencies.
 
-🧠 Context-Aware — Session-based memory captures all reasoning steps.
+Context-Aware — Session-based memory captures all reasoning steps.
 
-💻 Cross-Platform — Works on any modern terminal.
+Cross-Platform — Works on any modern terminal.
 
-🎨 Beautiful — Clean, color-coded, animated terminal output.
+Beautiful — Clean, color-coded, animated terminal output.
 
-🔁 Extensible — Easily add agents, tools, or model adapters later.
+Extensible — Easily add agents, tools, or adapters later.
 
 High-Level Architecture
 ┌──────────────────────────────────────┐
@@ -145,13 +145,10 @@ run:
 
 agents:
   - name: Planner
-    model: "gpt-4o"
     role: "Decompose complex tasks"
   - name: Builder
-    model: "claude-3.5-sonnet"
     role: "Generate artifacts"
   - name: Evaluator
-    model: "gpt-4o"
     role: "Assess and summarize results"
 
 
@@ -173,16 +170,16 @@ Extensibility Roadmap
 Phase	Feature	Description
 2	Async orchestration	Run agents concurrently using asyncio.
 3	Tool layer	Add callable tools (web_search, fs_write, exec).
-4	Model adapters	Integrate OpenAI, Anthropic, or local Ollama models.
+4	Backend adapters	Integrate various processing backends.
 5	Export/report	Convert session memory into Markdown summary.
 6	Visualization	Optional graphical dashboard or ASCII graph.
 Cross-Platform & Security
 
-100 % local; no internet required unless using API models.
+100% local; no external services required by default.
 
 Works identically on Windows, Linux, and macOS.
 
-API keys read from environment variables (OPENAI_API_KEY, etc.).
+Configuration keys read from environment variables as needed.
 
 All data stored locally in .orch/.
 

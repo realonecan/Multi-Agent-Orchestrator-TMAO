@@ -1,21 +1,21 @@
 Project Vision
 Overview
 
-The Terminal Multi-Agent Orchestrator (TMAO) is a modular, cross-platform system that lets multiple AI agents collaborate intelligently — all from the comfort of a terminal.
-It is designed to make complex reasoning, task planning, and creation transparent, traceable, and extendable, without requiring any cloud infrastructure or large-scale orchestration tools.
+The Terminal Multi-Agent Orchestrator (TMAO) is a modular, cross-platform system that enables multiple intelligent agents to collaborate efficiently — all from the comfort of a terminal.
+It is designed to make complex reasoning, task planning, and execution transparent, traceable, and extendable, without requiring any cloud infrastructure or large-scale orchestration tools.
 
 Core Philosophy
 
 TMAO is built on the idea that intelligence is best when shared.
-Just as a human team works better when experts coordinate, AI agents can achieve more when they specialize and collaborate.
+Just as a human team works better when experts coordinate, automated agents can achieve more when they specialize and collaborate.
 
-🧠 “Many small minds, one powerful outcome.”
+"Many small minds, one powerful outcome."
 
 Each agent focuses on what it does best — planning, building, evaluating — and shares its reasoning through a simple, persistent memory system.
 
 Mission Statement
 
-To create a lightweight, transparent, and extensible terminal platform where multiple specialized AI agents can:
+To create a lightweight, transparent, and extensible terminal platform where multiple specialized agents can:
 
 Work together on a common goal.
 
@@ -27,12 +27,12 @@ Remain fully operable on any local system (Windows, Linux, macOS).
 
 Key Principles
 Principle	Meaning
-🧩 Modularity	Each agent is independent — add, replace, or remove freely.
-🤝 Collaboration	Agents don’t compete — they build on each other’s outputs.
-🧠 Memory	Persistent logs preserve all thoughts, actions, and results.
-🔍 Transparency	Every decision is visible in the terminal and in memory files.
-⚙️ Scalability (code-level)	You can add more agents or features without changing the core design.
-🎨 Aesthetics	The terminal UI must feel alive, minimal, and beautiful.
+Modularity	Each agent is independent — add, replace, or remove freely.
+Collaboration	Agents don't compete — they build on each other's outputs.
+Memory	Persistent logs preserve all thoughts, actions, and results.
+Transparency	Every decision is visible in the terminal and in memory files.
+Scalability (code-level)	You can add more agents or features without changing the core design.
+Aesthetics	The terminal UI must feel alive, minimal, and beautiful.
 Target Use Cases
 1. Software Development
 
@@ -81,7 +81,7 @@ Summarization and export (Markdown session reports).
 
 Phase 3 – Intelligence
 
-Model adapters (OpenAI, Anthropic, Ollama).
+Extensible model adapters for various backends.
 
 Lightweight vector memory for semantic recall.
 
@@ -99,7 +99,7 @@ Competitive Advantages
 
 Runs anywhere — no servers, no containers, pure Python.
 
-Transparent AI — everything the agents do is logged and visible.
+Transparent execution — everything the agents do is logged and visible.
 
 Persistent context — every thought and result saved locally.
 
@@ -119,7 +119,7 @@ Accessible — runs even on low-resource systems.
 
 Long-Term Vision
 
-To make TMAO the go-to open-source base for AI orchestration that:
+To make TMAO the go-to open-source base for agent orchestration that:
 
 Developers can extend.
 
@@ -129,4 +129,4 @@ Students can learn from.
 
 Anyone can run from any terminal on Earth.
 
-A system that looks simple on the surface — yet contains the architecture of a true collaborative AI lab.
+A system that looks simple on the surface — yet contains the architecture of a true collaborative automation platform.

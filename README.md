@@ -1,20 +1,20 @@
-# 🧠 Terminal Multi-Agent Orchestrator (TMAO)
+# Terminal Multi-Agent Orchestrator (TMAO)
 
-> *“Where AI agents think, plan, and build — together, in your terminal.”*
+> *"Where intelligent agents think, plan, and build — together, in your terminal."*
 
-A **terminal-native multi-agent orchestration system** that enables collaborative AI workflows.  
+A **terminal-native multi-agent orchestration system** that enables collaborative automated workflows.
 TMAO coordinates specialized agents — Planner, Builder, Reviewer — to solve complex coding, research, or automation tasks in real-time, with shared memory and adaptive reasoning.
 
 ---
 
 ## ✨ Features
 
-- 🧩 **Multi-Agent Collaboration** — Planner, Builder, and Reviewer coordinate automatically  
-- 🧠 **Persistent Memory** — Context is stored and recalled across sessions  
-- ⚙️ **Task Orchestration Engine** — Dynamic scheduling and dependency management  
-- 🧰 **Extensible Architecture** — Easily add new agents or extend capabilities  
-- 🎨 **Clean Terminal UI** — Beautiful CLI visuals with structured logging  
-- 🔒 **Sandboxed Execution** — Safe local environment with restricted commands  
+- **Multi-Agent Collaboration** — Planner, Builder, and Reviewer coordinate automatically
+- **Persistent Memory** — Context is stored and recalled across sessions
+- **Task Orchestration Engine** — Dynamic scheduling and dependency management
+- **Extensible Architecture** — Easily add new agents or extend capabilities
+- **Clean Terminal UI** — Beautiful CLI visuals with structured logging
+- **Sandboxed Execution** — Safe local environment with restricted commands  
 
 ---
 

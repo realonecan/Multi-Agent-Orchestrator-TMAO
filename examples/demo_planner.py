@@ -59,7 +59,7 @@ async def demo_planner_agent():
             "task": "Research machine learning algorithms for natural language processing",
             "context": {
                 "deadline": "2025-02-01",
-                "focus_areas": ["transformers", "BERT", "GPT"]
+                "focus_areas": ["transformers", "sequence models", "attention mechanisms"]
             }
         },
         {

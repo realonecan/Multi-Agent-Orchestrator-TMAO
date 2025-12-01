@@ -190,7 +190,7 @@ Use console.log() from rich for every major agent event
 Persist progress and results to .orch/memory.jsonl
 
 Example Flow
-$ tmao new "Build AI chatbot demo"
+$ tmao new "Build demo chatbot"
 > [Planner] → Breaking task into subtasks...
 > [Builder] → Writing Python skeleton...
 > [Evaluator] → Checking for logical errors...
@@ -209,4 +209,4 @@ Remote task sync via SSH / REST adapter (optional)
 Conclusion
 
 The TMAO Task System combines simplicity with extensibility — every task can be observed, retried, extended, and explained.
-It’s designed to feel alive in the terminal: readable logs, visual feedback, and collaborative AI behavior — all without needing any cloud infrastructure.
+It's designed to feel alive in the terminal: readable logs, visual feedback, and collaborative agent behavior — all without needing any cloud infrastructure.

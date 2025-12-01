@@ -5,7 +5,7 @@ This guide defines the coding, documentation, and design conventions for the Ter
 Consistency in style ensures that the codebase remains clean, maintainable, and easy to extend as new agents and features are added.
 
 Code Style
-🐍 Python Style
+Python Style
 
 Follow PEP 8 with a few readability-focused adjustments.
 
@@ -45,7 +45,7 @@ Prefer f-strings:
 agent_name = "Planner"
 print(f"[{agent_name}] Starting new task...")
 
-🧵 Async Patterns
+Async Patterns
 
 Use async/await for any I/O or simulated agent delay.
 
@@ -119,7 +119,7 @@ async def test_memory_append_and_get(tmp_path):
     assert results[0]["agent"] == "Planner"
 
 
-✅ Tests should be fast, isolated, and file-safe.
+Tests should be fast, isolated, and file-safe.
 
 Error Handling
 
@@ -169,16 +169,11 @@ memory:
 
 agents:
   - name: Planner
-    model: "gpt-4o"
   - name: Builder
-    model: "claude-3.5-sonnet"
   - name: Evaluator
-    model: "none"
 
 
-Sensitive values (API keys) use environment variables:
-
-export OPENAI_API_KEY="sk-..."
+Sensitive values use environment variables as needed.
 
 Performance & Async
 
@@ -192,12 +187,12 @@ Keep console updates rate-limited to avoid flicker.
 
 Code Review Checklist
 
-✅ Follows naming and PEP 8
-✅ Uses docstrings and type hints
-✅ No hard-coded secrets
-✅ Proper async usage
-✅ Meaningful commit messages
-✅ Unit tests for new logic
+- Follows naming and PEP 8
+- Uses docstrings and type hints
+- No hard-coded secrets
+- Proper async usage
+- Meaningful commit messages
+- Unit tests for new logic
 
 CI Hooks (optional)
 
